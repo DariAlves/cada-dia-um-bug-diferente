@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  /* border: 4px solid red; */
+  box-shadow: 1px 1px 5px #ccc;
+}
+
+.container {
+  /* border: 4px solid black; */
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  /* border: 4px solid aqua; */
+}
+
+.info {
+  /* border: 4px solid blue; */
+  display: flex;
+  align-items: center;
+}
+
+.marca {
+  /* border: 4px solid green; */
+  margin-right: 10px;
+}
+
+.slogan {
+  /* border: 4px solid yellow; */
+  font-size: 12px;
+}
